@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="selected_dot">#FFFFFF</color>
+    <color name="default_dot">#757575</color>
+    <color name="tutorial_background">#FF000000</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shortrain</string>
+    <string name="add_rail">Add rail</string>
+    <string name="start_point">Set start point</string>
+    <string name="tutorial_1">Add a new rail from Shortrain shortcuts menu (Long press)</string>
+    <string name="tutorial_2">Tap the rail to build it, (Adding a new rail before building the last one will have devastating consequences)</string>
+    <string name="tutorial_3">Further taps will change the rail direction. Rails can be removed, but not moved. Do not move them!</string>
+    <string name="tutorial_4">Add as much starting stations as you wish</string>
+    <string name="tutorial_5">Press the starting point and let the fascinating, magnificent and marvelous magic train roll on your screen</string>
+</resources>

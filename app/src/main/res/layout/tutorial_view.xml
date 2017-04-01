@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/tutorial_view_texture_view"
+        android:layout_width="250dp"
+        android:layout_height="444dp" />
+
+    <TextView
+        android:id="@+id/tutorial_view_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tutorial_background"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:translationY="414dp" />
+
+</FrameLayout>
