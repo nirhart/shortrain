@@ -1,5 +1,8 @@
 # Shortrain - Let the fascinating, magnificent and marvelous magic train roll on your screen
 
+## How it works?
+The app starts with 2 dynamic shortcuts (Rail, Starting point). Each time you add a new rail, the id of the Rail dynamic shortct changed and the previous id is removed, allowing the pinned rail shortcut to be independent from the dynamic rail shortcut, and allow you to add one more rail to the screen with a different direction.
+
 ## Requires
 * Min Sdk version of 25 (Android 7.1)
 * Tested on Pixel launcher and Google luancher
