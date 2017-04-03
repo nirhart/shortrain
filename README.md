@@ -9,7 +9,8 @@ The app starts with 2 dynamic shortcuts (Rail, Starting point). Each time you ad
 
 Enjoy trains? Enjoy Android? Enjoy the new app shortcuts of Android Nougat? this is the project for you!
 
-![Demo](https://raw.githubusercontent.com/nirhart/shortrain/master/demo.gif)
+![Demo](https://raw.githubusercontent.com/nirhart/shortrain/master/demo_placement.gif)
+![Demo](https://raw.githubusercontent.com/nirhart/shortrain/master/demo_ride.gif)
 
 ## This project includes
 * Working with app shortcuts API.
