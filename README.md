@@ -1,13 +1,13 @@
-# Shortrain - Let the fascinating, magnificent and marvelous magic train roll on your screen
+# Shortrain - Let the fascinating, magnificent and marvelous magic train roll on your screen!
 
-## How it works?
-The app starts with 2 dynamic shortcuts (Rail, Starting point). Each time you add a new rail, the id of the Rail dynamic shortct changed and the previous id is removed, allowing the pinned rail shortcut to be independent from the dynamic rail shortcut, and allow you to add one more rail to the screen with a different direction.
+## How does it work?
+The app starts with 2 dynamic shortcuts (Rail and Starting point). Each time you add a new rail, the id of the Rail dynamic shortcut changes and the previous id is removed, allowing the pinned rail shortcut to become independent of the dynamic rail shortcut, and allowing you to add one more rail to the screen with a different direction.
 
 ## Requires
 * Min Sdk version of 25 (Android 7.1)
-* Tested on Pixel launcher and Google luancher
+* Tested with Pixel Launcher and Google Launcher
 
-Enjoy trains? Enjoy Android? Enjoy the new app shortcuts of Android Nougat? this is the project for you!
+Do you find trains enjoyable? how about Android? do you like the new App shortcuts of Android Nougat? If so - then this is the project for you!
 
 ![Demo](https://raw.githubusercontent.com/nirhart/shortrain/master/demo_placement.gif)
 ![Demo](https://raw.githubusercontent.com/nirhart/shortrain/master/demo_ride.gif)
