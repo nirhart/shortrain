@@ -19,5 +19,5 @@ Do you find trains enjoyable? how about Android? do you like the new App shortcu
 * Manipulation of the dynamic app shortcuts api together with getSourceBounds for icon location detection.
 
 ##### Play Store link - https://play.google.com/store/apps/details?id=com.nirhart.shortrain
-##### Youtube video - https://youtu.be/ybe-ICNr9PE
+##### Youtube video - https://youtu.be/944tbOYheJ0
 
