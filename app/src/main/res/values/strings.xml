@@ -7,4 +7,5 @@
     <string name="tutorial_3">Further taps will change the rail direction. Rails can be removed, but not moved. Do not move them!</string>
     <string name="tutorial_4">Add as much starting stations as you wish</string>
     <string name="tutorial_5">Press the starting point and let the fascinating, magnificent and marvelous magic train roll on your screen</string>
+    <string name="starting_point_explanation">Please drag the starting point to your homescreen</string>
 </resources>

@@ -20,7 +20,7 @@ public class PathParser {
         this.screenHeight = screenHeight;
     }
 
-    public TrainPath parse(int startX, int startY, Rect tileRect, List<RailInfo> rails) {
+    public TrainPath parse(int startX, int startY, Rect tileRect, List<RailInfo> rails) throws ArrayIndexOutOfBoundsException {
         TrainPath trainPath = new TrainPath();
         int direction = TrainDirection.RIGHT; // trains always starts to right
 
@@ -92,7 +92,7 @@ public class PathParser {
         return new Point(row, col);
     }
 
-    private RailInfo[][] buildBoard(Rect tileRect, List<RailInfo> rails) {
+    private RailInfo[][] buildBoard(Rect tileRect, List<RailInfo> rails) throws ArrayIndexOutOfBoundsException {
         int tileWidth = tileRect.width();
         int tileHeight = tileRect.height();
 
@@ -100,6 +100,7 @@ public class PathParser {
         int cols = screenWidth / tileWidth;
 
         RailInfo[][] board = new RailInfo[rows][cols];
+
         for (RailInfo rail : rails) {
             int railRow = rail.getY() / tileHeight;
             int railCol = rail.getX() / tileWidth;

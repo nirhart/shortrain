@@ -19,6 +19,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.nirhart.shortrain.R;
 import com.nirhart.shortrain.path.PathParser;
@@ -62,7 +63,18 @@ public class TrainActionActivity extends Activity {
         int height = displayMetrics.heightPixels;
 
         PathParser pathParser = new PathParser(width, height);
-        TrainPath path = pathParser.parse(trainRect.left, trainRect.top, trainRect, rails);
+
+        TrainPath path = null;
+        try {
+            path = pathParser.parse(trainRect.left, trainRect.top, trainRect, rails);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            // If someone clicks the "set start point" instead of dragging it to screen, the tileRect will be larger
+            // the cols will not be calculated correctly and an ArrayIndexOutOfBoundsException will be thrown in here
+            Toast.makeText(this, R.string.starting_point_explanation, Toast.LENGTH_LONG).show();
+            finish();
+            return;
+        }
+
 
         List<Animator> engineAnimators = createTrainAnimation(engineView, path);
         final List<AnimatorSet> carsAnimatorSets = new ArrayList<>();
