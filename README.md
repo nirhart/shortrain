@@ -1,3 +1,5 @@
+###### This is an #AndroidExperiments https://www.androidexperiments.com/experiment/shortrain
+
 # Shortrain - Let the fascinating, magnificent and marvelous magic train roll on your screen!
 
 ## How does it work?
